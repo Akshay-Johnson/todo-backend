@@ -8,11 +8,6 @@ const taskRoutes = require("./routes/taskRoutes");
 const sequelize = require("./config/db");
 require("./models/taskModel");
 
-const express = require("express");
-const cors = require("cors");
-const taskRoutes = require("./routes/taskRoutes");
-const sequelize = require("./config/db");
-require("./models/taskModel");
 
 const app = express();
 app.use(cors());
